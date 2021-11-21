@@ -1,0 +1,4 @@
+This assignment seemed pretty difficult, however once I took a look at each individual section of the project I realize it was much easier.
+Although I had to go back to review a bit arithmetic sequencing it was still good review nonetheless. 
+One thing I struggled with was to utilize a single variable to calculate money spent in each nation but I wanted to get to the DBA in time to sign up for AP test
+so I will review that section later.

@@ -1,0 +1,92 @@
+
+/**
+ *To help you purchase your game with automation
+ *
+ *Evan Wang
+ *Money CalculatorV1 11/14/2021
+ */
+import java.util.Scanner;
+public class MoneyCalculator
+{
+      public static void main(String [ ] args)
+    {
+            Scanner in;
+        in = new Scanner(System.in);
+        
+        System.out.println("Hello there shopper, please enter your first and last name into the program: ");
+        String firstName = in.next();
+        String lastName = in.nextLine();
+        String fullName = firstName + lastName;
+        
+        System.out.println("Hello " + firstName + " please enter today's date using mm/dd/yyyy format: ");
+        String userDate = in.nextLine();
+        
+        System.out.println("What video game would you like to purchase? ");
+        String videoTitle = in.nextLine();
+        
+        System.out.println("How many copies would you like to purchase? ");
+        String quantity = in.nextLine();
+        
+        System.out.println("What is the ticket price? ");
+        String ticketPrice = in.nextLine();
+        
+        System.out.println("Please enter your credit card number ");
+        String creditNumber = in.nextLine();
+        
+        System.out.println("Please enter your pin number ");
+        String pinNumber = in.nextLine();
+        
+        
+        System.out.println("Processing...");
+        
+        System.out.println("Your e-reciept");
+        System.out.println(userDate);
+        
+        int orderNumber = (int)(Math.random() * (100 - 1 + 1) + 1);
+        System.out.println("Order Number: " + orderNumber);
+        
+        System.out.println(fullName);
+        
+        int accountNumber1 = (int)(Math.random() * (99999 - 10000 + 1) + 10000);
+        int accountNumber2 = (int)(Math.random() * (999 - 100 + 1) + 1000);
+        int accountNumber3 = (int)(Math.random() * (9999 - 1000 + 1) + 1000);
+        System.out.println("Account Number: " + accountNumber1 + "-" + accountNumber2 + "-" + accountNumber3);
+        
+        System.out.println("Game title: " + videoTitle);
+        System.out.println("Cost per game " + ticketPrice);
+        
+        double quantityV2;
+        quantityV2 = Double.parseDouble(quantity);   
+        double ticketPriceV2;
+        ticketPriceV2 = Double.parseDouble(ticketPrice);
+        System.out.println("Total Money Spent: " );
+        System.out.print( quantityV2 * ticketPriceV2);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+}
+------------------------------------------------------------------------
+This is the project README file. Here, you should describe your project.
+Tell the reader (someone who does not know anything about this project)
+all they need to know. The comments should usually include at least:
+------------------------------------------------------------------------
+
+PROJECT TITLE:
+PURPOSE OF PROJECT:
+VERSION or DATE:
+HOW TO START THIS PROJECT:
+AUTHORS:
+USER INSTRUCTIONS:

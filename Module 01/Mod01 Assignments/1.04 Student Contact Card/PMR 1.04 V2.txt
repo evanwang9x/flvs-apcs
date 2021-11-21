@@ -1,0 +1,3 @@
+The project went quite smoothly for me and I learned the difference between println and print. 
+One question I have is that is it possible to delete the previous void main string when I use it again?
+As I find it very distracting seeing the 2 different instances near each other.

@@ -1,0 +1,2 @@
+This was very fun to figure out even though I had to reread very thoroughly about each line and it's purpose. 
+I struggled a bit with aesthetics cause I accidentally a space in the header resulting in me spending 10 minutes trying figure out what was wrong.

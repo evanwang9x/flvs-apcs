@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CurrencyConversionV1
+comment0.text=\r\n\ Project\ title\:\ 02.08\ Challenge\ Program\r\n\ \r\n\ Purpose\ of\ Project\:\ The\ CurrencyConversion\ class\ converts\ an\ amount\ of\ money\ from\ a\ specific\r\n\ country\ into\ the\ equivalent\ currency\ of\ another\ country\ given\ the\ current\r\n\ exchange\ rate.\r\n\r\n\ @version\ 11/3/2014\r\n\ \r\n\ @author\ Omar\ Rahman\r\n\ \r\n\ ***********\ PMR\ ***********\r\n\ (+)\ Learned\ how\ to\ exchange\ rates\ using\ current\ rates\ at\ the\ time.\r\n\ \r\n\ (-)\ Had\ some\ trouble\ not\ using\ multiplication\ and\ subtraction\ but\ found\ work-arounds.\r\n\ ***************************\r\n\ \r\n\ In\ the\ future\:\ Learn\ how\ to\ cast\ better.\r\n\ \r\n\ Site\ used\ for\ exchange\ rates\:\ http\://xe.com/\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

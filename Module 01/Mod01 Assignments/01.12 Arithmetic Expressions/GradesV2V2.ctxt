@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GradesV2V2
+comment0.text=\r\n\ A\ program\ to\ calculate\ total\ points\ and\ average\ grade\ \r\n\r\n\ Evan\ Wang\r\n\ Version\ 2.0\ \r\n\ 10/13/21\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=GradesV2V2()
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ GradesV2\r\n
+comment3.params=y
+comment3.target=int\ sampleMethod(int)
+comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=4

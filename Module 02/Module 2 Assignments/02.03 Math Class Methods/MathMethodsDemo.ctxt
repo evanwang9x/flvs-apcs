@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MathMethodsDemo
+comment0.text=\r\n\ Basic\ Calculator\ commands\ that\ you\ can\ use\ instead\ of\ using\ a\ calculator\r\n\r\n\ @author\ Evan\ Wang\r\n\ @version\ 06/07/17\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

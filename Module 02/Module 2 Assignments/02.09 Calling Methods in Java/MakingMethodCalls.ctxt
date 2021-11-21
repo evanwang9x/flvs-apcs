@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MakingMethodCalls
+comment0.text=\r\n\ To\ help\ with\ math\ that\ involves\ 5\ and\ 10\r\n\r\n\ Evan\ Wang\r\n\ 11/14/21\r\n
+comment1.params=
+comment1.target=void\ addTheseTwo()
+comment2.params=a\ b
+comment2.target=void\ multiplyTheseTwo(int,\ int)
+comment3.params=a\ b
+comment3.target=int\ divideTheseTwo(int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

@@ -1,0 +1,27 @@
+
+/**
+ * To help you caluclate the hypotenuse of a triangle
+ *
+ * Evan Wang
+ * 11/10/21
+ */
+public class PyTheorem
+{
+    public static void main(String[ ] args)
+    {
+    int Lowball = 5;
+    int Highball = 17;
+    int RandomA = (int)(Math.random() * 17 + 5);
+    int RandomB = (int)(Math.random() * 17 + 5);
+    double RandomA2 = Math.pow(RandomA, 2);
+    double RandomB2 = Math.pow(RandomB, 2);
+    double RandomC = Math.sqrt(RandomA2 + RandomB2);
+    System.out.println("The square root of " + RandomA2 + "+" + RandomB2 + " is: " + RandomC);
+
+    
+    
+    
+    
+
+    }
+}

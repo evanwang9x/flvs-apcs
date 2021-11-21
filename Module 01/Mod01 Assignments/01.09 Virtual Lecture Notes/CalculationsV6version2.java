@@ -1,0 +1,103 @@
+
+/**
+ * To help you calculate any mathmatical issues you may have
+ *
+ * Evan Wang
+ * 2.0 10/27/21
+ */
+public class CalculationsV6version2
+{ 
+         public static void main(String[ ] args)
+    {
+        int iNum1 = 69;
+        int iNum2 = 6;
+        int iNum3 = 5;
+        int iNum4 = 21;
+        //Those bottom two were for fun
+        int Doge= 15;
+        int ShibeInu = 20;
+        //These bottom three are the actual ones
+        int Thousand = 1000;
+        double Halloween = 10.31;
+        double Christmas = 12.25;
+        double Countdown = 43.21;
+        double Pi = 3.14;
+        // Addition
+        System.out.println("Addition");
+        System.out.print(Countdown + " + " + iNum2 + "=" );
+        System.out.println (iNum1 + iNum2);
+        System.out.print(Countdown + " + " + Pi + "=");
+        System.out.println (Countdown+Pi);
+        System.out.print(Doge + " + " + ShibeInu + "=");
+        System.out.println(Doge+ShibeInu);
+        //System.out.println();
+        
+        // Subtraction
+        System.out.println("Subtraction");
+        System.out.print(iNum3 + " - " + iNum2 + " - " + iNum1 + "=");
+        System.out.println(iNum3 - iNum2 - iNum1);
+        System.out.print(Pi + " - " + iNum4 + "=");
+        System.out.println(Countdown - iNum4);
+        System.out.print(ShibeInu + " - " + Doge + "=");
+        System.out.println(ShibeInu-Doge);
+        //System.out.println();
+        
+        // Multiplication
+        System.out.println("Multiplication");
+        System.out.print(iNum1 + "*" + iNum2 + "=");
+        System.out.println(iNum1*iNum2);
+        System.out.print(Pi + "*" + iNum4 + "*" + iNum4 + "=");
+        System.out.println(Pi*iNum4*iNum4);
+        //System.out.println();
+        
+        // Division
+        System.out.println("Division");
+        System.out.print(iNum2 + "/" + iNum1 + "=");
+        System.out.println(iNum2/iNum1);
+        System.out.print(Countdown + "/" + iNum4 + " = ");
+        System.out.println(Countdown/iNum4);
+        System.out.print(Christmas + "/" + Halloween + "=");
+        System.out.println  (Christmas/Halloween);
+        //System.out.println();
+         
+        // Modulus operator
+        System.out.println("Modulus");
+        System.out.print(iNum3 + "%" + iNum2 + "=");
+        System.out.println(iNum3%iNum2);
+        System.out.print(iNum4 + "%" + Pi + "=");
+        System.out.println(iNum4%Pi);
+        System.out.print(Thousand + "%" + Halloween + "%" + Christmas + "=");
+        System.out.print(Thousand%Halloween%Christmas);
+        //System.out.println();
+        
+        // 1.08 Additional int Equations
+        
+        
+        // 1.09 Additional double Equations
+        
+               
+    } // e
+    // instance variables - replace the example below with your own
+    private int x;
+
+    /**
+     * Constructor for objects of class CalculationsV6
+     */
+    public CalculationsV6version2()
+    {
+        // initialise instance variables
+        x = 0;
+    }
+
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
+    public int sampleMethod(int y)
+    {
+        // put your code here
+        return x + y;
+    }
+}
