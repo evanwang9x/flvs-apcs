@@ -6,7 +6,7 @@
  *Money CalculatorV1 11/14/2021
  */
 import java.util.Scanner;
-public class MoneyCalculatorV2
+public class MoneyCalculatorV3
 {
       public static void main(String [ ] args)
     {
@@ -18,7 +18,7 @@ public class MoneyCalculatorV2
         String firstName = in.next();
         String firstInitial = firstName.substring(0,1);
         String lastName = in.nextLine();
-        String lastInitial = lastName.substring(0,1);
+        String lastInitial = lastName.substring(1, 2);
         String fullName = firstName + lastName;
         
         
@@ -39,8 +39,14 @@ public class MoneyCalculatorV2
         System.out.println("What is the ticket price? ");
         String ticketPrice = in.nextLine();
         
-        System.out.println("Please enter your credit card number ");
+        System.out.println("Please enter your credit card number in the following format (XXXXX-XXX-XXXX)");
         String creditNumber = in.nextLine();
+        String finalNumbers = creditNumber.substring (9);
+        String midNumbers = creditNumber.substring(6,9);
+        String earlyNumbers = creditNumber.substring(0,5);
+        String hiddenNumbers = earlyNumbers.replaceAll(".", "X");
+        String hiddenMidNumbers = midNumbers.replaceAll(".", "X");
+        
         
         System.out.println("Please enter your pin number ");
         String pinNumber = in.nextLine();
@@ -49,18 +55,18 @@ public class MoneyCalculatorV2
         System.out.println("Processing...");
         
         System.out.println("Your e-reciept");
+        System.out.println(firstInitial + lastName);
+
         System.out.println(userDate);
+        System.out.println("Order Number " + firstInitial + lastInitial + midNumbers);
         
-        String creditCard = "Account Number:XXXX-XXX-" + creditNumber;
-        String lastNumbers = creditCard.substring(24);
-        System.out.println(firstInitial + lastInitial + lastNumbers );
+        System.out.println("Account Number: " + hiddenNumbers + "-" + hiddenMidNumbers + finalNumbers);
+
         
-        System.out.println(fullName);
+       
         
 
         
-        
-        System.out.println(creditCard);
         
         
         System.out.println("Game title: " + videoTitle);
