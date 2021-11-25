@@ -9,14 +9,12 @@ public class afsdf
 {
     public static void main(String[] args)
     {
-int m = 4;
-if(m + 1 < 5)
-    m += 3;
-System.out.println(m);
-
-    
-    
-    
+String str = "APCS";
+String str1 = "" + str.charAt(0);
+String str2 = "" + str.charAt(0);
+System.out.println("The string values: " + str1 + " and " + str2);
+System.out.println(" str1 == str2 : " + (str1 == str2) );
+System.out.println(" str1.equals(str2) : " + str1.equals(str2) );
     
     }
 }
