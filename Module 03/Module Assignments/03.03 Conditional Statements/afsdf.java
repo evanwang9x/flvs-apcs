@@ -12,9 +12,9 @@ public class afsdf
 String str = "APCS";
 String str1 = "" + str.charAt(0);
 String str2 = "" + str.charAt(0);
-System.out.println("The string values: " + str1 + " and " + str2);
-System.out.println(" str1 == str2 : " + (str1 == str2) );
-System.out.println(" str1.equals(str2) : " + str1.equals(str2) );
+System.out.println("hello".equals( "HELLO" ));
+System.out.println("hello".compareTo( "hello world!" ) < 0);
+System.out.println("hello".compareTo( "goodbye!" ) < 0);
     
     }
 }
