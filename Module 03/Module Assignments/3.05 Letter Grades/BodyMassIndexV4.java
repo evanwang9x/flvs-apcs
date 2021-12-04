@@ -6,7 +6,7 @@
  *11/17/2021
  */
 import java.util.Scanner;
-public class BodyMassIndexV3
+public class BodyMassIndexV4
 {
    public static void main(String[] args)
     {
@@ -38,21 +38,21 @@ public class BodyMassIndexV3
         System.out.println("Height (m): " + (int)(10 * totalMeters)/10.0);
         System.out.println("Weight (kg): " + (int)(10 * totalKilogram)/10.0);
         
-        double partialBMI = totalKilogram / totalMetersSquared;
-        double partialBMIRounded = ((int)(10 * partialBMI)/10.0);
-        if(partialBMIRounded <18.5)
+        double partialbMI = totalKilogram / totalMetersSquared;
+        double partialbMIRounded = ((int)(10 * partialbMI)/10.0);
+        if(partialbMIRounded <18.5)
             BMI = "Underweight";
         else if
-            (partialBMIRounded <25)
+            (partialbMIRounded <25)
             BMI = "Normal or Healthy Weight";
         else if 
-            (partialBMIRounded <30)
+            (partialbMIRounded <30)
             BMI = "Overweight";
         else 
             BMI = "Obese";
             
             
-        System.out.println("BMI: " + partialBMIRounded);
+        System.out.println("BMI: " + partialbMIRounded);
         System.out.println("Category: " + BMI);
             
             
