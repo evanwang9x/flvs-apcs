@@ -20,7 +20,7 @@ public class CompareToDemo
 
         // Try both statements at separate times. How does the output change?
         int value = yourWord.compareTo(myWord);
-        //int value = yourWord.compareToIgnoreCase(myWord);
+   //int value = yourWord.compareToIgnoreCase(myWord);
 
         System.out.println("The value returned after comparing is: " + value );
         System.out.println();

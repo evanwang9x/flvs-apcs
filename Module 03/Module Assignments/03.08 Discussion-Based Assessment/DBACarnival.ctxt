@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=DBACarnival
-comment1.params=fullName\ userID\ admissionFee
-comment1.target=void\ printTicket(java.lang.String,\ java.lang.String,\ double)
+comment1.params=fullName\ admissionFee\ firstInitial\ lastInitial\ randomNumber\ userID
+comment1.target=void\ printTicket(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
 comment2.params=args
 comment2.target=void\ main(java.lang.String[])
 numComments=3
