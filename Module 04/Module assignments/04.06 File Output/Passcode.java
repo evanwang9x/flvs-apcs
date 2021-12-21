@@ -1,3 +1,4 @@
+
 /**
  * Randomly generate passwords.
  *
@@ -19,17 +20,16 @@ public class Passcode
         int pwLength = 0;
         int randNum = 0; 
             int doge = 0;
-
         String password = "";
-
-	// initialize scanner and print writer
+String answer;
+    // initialize scanner and print writer
         Scanner in = new Scanner(System.in);
 
         System.out.println("**********************************************************");
-            System.out.println("Welcome to a simple password generator. \nThe password will include lowercase, uppercase, & numbers.");
-        	 int length = in.nextInt(); 
-
-	 while (true) {
+        do {  
+        System.out.println("Welcome to a simple password generator. \nThe password will include lowercase, uppercase, & numbers.");
+             int length = in.nextInt(); 
+     while (true) {
         if (length >= 6) 
         {
             System.out.println("Thank you this Password length is sufficient");
@@ -39,9 +39,9 @@ public class Passcode
             System.out.println("Please make sure to keep password length above 6");
             System.exit(0);
         }     
-    }	
-	// generate a random character in the correct character set
-		for (int loop = 0; loop < length; loop++) {
+    }    
+    // generate a random character in the correct character set
+        for (int loop = 0; loop < length; loop++) {
     int randumb = (int)(Math.random() * 3);
             int numbers = (int)(Math.random() * (57-48 +1) + 48);
         int upperCaseCharacters = (int)(Math.random() * (90 - 65 +1) + 65);
@@ -56,18 +56,19 @@ public class Passcode
         doge = lowerCaseCharacters;
     }
     password += (char)(doge);
-    outFile.println(password); 
+    outFile.println("Password: " + password + "\t"); 
     }
-    System.out.println()
-  
-    
-// concatenate the character to the password
-	// write the password to the file
+    System.out.println("Do you wish to continue on? Yes or No");  
+    answer = in.next();
+} while (answer.equals("Yes"));
+System.out.println(outFile); 
 
-	// when the user is done, close the text file so that it can be re-opened and read
-outFile.close();
+}
+// concatenate the character to the password
+    // write the password to the file
+
+    // when the user is done, close the text file so that it can be re-opened and read
         // Read passwords back from text file and display to the screen
-		System.out.println(outFile);
   }//end main
-}//end class
+//end class
 
