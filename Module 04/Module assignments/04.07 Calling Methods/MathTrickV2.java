@@ -64,17 +64,20 @@ public class MathTrickV2 {
         
          public static String replaceLtr(String massiveSubtractionRemastered)
     {
-            String massiveSubtractionV2 = String.valueOf(massiveSubtractionRemastered);
-            String one = massiveSubtractionV2.substring(0);
-            String two = massiveSubtractionV2.substring(1);
-            String three = massiveSubtractionV2.substring(2);
-            String four = massiveSubtractionV2.substring(3);
-            String five = massiveSubtractionV2.substring(4);
-            String six = massiveSubtractionV2.substring(5);
-            String seven = massiveSubtractionV2.substring(6);
-            String eight = massiveSubtractionV2.substring(7);
+            String massiveSubtractionV2 = massiveSubtractionRemastered;
             
-            int oneRemastered = Integer.parseInt(one);
+            String one = massiveSubtractionV2.substring(0,1);
+            String two = massiveSubtractionV2.substring(1,2);
+            String three = massiveSubtractionV2.substring(2,3);
+            String four = massiveSubtractionV2.substring(3,4);
+            String five = massiveSubtractionV2.substring(4,5);
+            String six = massiveSubtractionV2.substring(5,6);
+            String seven = massiveSubtractionV2.substring(6,7);
+            String eight = massiveSubtractionV2.substring(7,8);
+            String nine= massiveSubtractionV2.substring(8,9);
+            
+            
+            int oneRemastered = (Integer.parseInt(one));
             int twoRemastered = Integer.parseInt(two);
             int threeRemastered = Integer.parseInt(three);
             int fourRemastered = Integer.parseInt(four);
@@ -82,15 +85,48 @@ public class MathTrickV2 {
             int sixRemastered = Integer.parseInt(six);
             int sevenRemastered = Integer.parseInt(seven);
             int eightRemastered = Integer.parseInt(eight);
+            int nineRemastered = Integer.parseInt(nine);
             
-            String oneV2 = "";
-            String twoV2 = "";
-            String threeV2 = "";
-            String fourV2 ="";
-            String fiveV2 = "";
-            String sixV2 = "";
-            String sevenV2 = "";
-            String eightV2 = "";
+            System.out.println(oneRemastered);            
+            String oneRemasteredV2 = "";
+            String twoRemasteredV2 = "";
+            String threeRemasteredV2 = "";
+            String fourRemasteredV2 ="";
+            String fiveRemasteredV2 = "";
+            String sixRemasteredV2 = "";
+            String sevenRemasteredV2 = "";
+            String eightRemasteredV2 = "";
+            String nineRemasteredV2 = "";
+       if (oneRemastered == 0) {
+                 oneRemasteredV2 = "Y";
+            }
+            else if (oneRemastered == 1) {
+                 oneRemasteredV2 = "M";
+       }
+               else if (oneRemastered == 2) {
+            oneRemasteredV2 = "P";
+        }
+               else if (oneRemastered == 3) {
+            oneRemasteredV2 = "L";
+        }
+               else if (oneRemastered == 4) {
+            oneRemasteredV2 = "R";
+        }
+               else if (oneRemastered == 5) {
+            oneRemasteredV2 = "O";
+        }
+               else if (oneRemastered == 6) {
+            oneRemasteredV2 = "F";
+        }
+               else if (oneRemastered == 7) {
+            oneRemasteredV2 = "A";
+        }
+               else if (oneRemastered == 8) {
+            oneRemasteredV2 = "I";
+        }
+               else {
+            oneRemasteredV2 = "P";
+        }     
         if (twoRemastered == 0) {
                  twoRemasteredV2 = "Y";
             }
@@ -122,189 +158,233 @@ public class MathTrickV2 {
             twoRemasteredV2 = "B";
         }
     
-             if (three == "0") {
-                 threeV2 = "Y";
+       if (threeRemastered == 0) {
+                 threeRemasteredV2 = "Y";
             }
-            else if (three == "1") {
-                 threeV2 = "M";
+            else if (threeRemastered == 1) {
+                 threeRemasteredV2 = "M";
        }
-       else if (three == "2") {
-            threeV2 = "P";
+       else if (threeRemastered == 2) {
+            threeRemasteredV2 = "P";
         }
-               else if (three == "3") {
-            threeV2 = "L";
+               else if (threeRemastered == 3) {
+            threeRemasteredV2 = "L";
         }
-               else if (three == "4") {
-            threeV2 = "R";
+               else if (threeRemastered == 4) {
+            threeRemasteredV2 = "R";
         }
-               else if (three == "5") {
-            threeV2 = "O";
+               else if (threeRemastered == 5) {
+            threeRemasteredV2 = "O";
         }
-               else if (three == "6") {
-            threeV2 = "F";
+               else if (threeRemastered == 6) {
+            threeRemasteredV2 = "F";
         }
-               else if (three == "7") {
-            threeV2 = "A";
+               else if (threeRemastered == 7) {
+            threeRemasteredV2 = "A";
         }
-               else if (three == "8") {
-            threeV2 = "I";
+               else if (threeRemastered == 8) {
+            threeRemasteredV2 = "I";
         }
                else {
-            threeV2 = "B";
+            threeRemasteredV2 = "B";
         }
-        if (four == "0") {
-                 fourV2 = "Y";
+       if (fourRemastered == 0) {
+                 fourRemasteredV2 = "Y";
             }
-            else if (four == "1") {
-                 fourV2 = "M";
+            else if (fourRemastered == 1) {
+                 fourRemasteredV2 = "M";
        }
-       else if (four == "2") {
-            fourV2 = "P";
+       else if (fourRemastered == 2) {
+            fourRemasteredV2 = "P";
         }
-               else if (four == "3") {
-            fourV2 = "L";
+               else if (fourRemastered == 3) {
+            fourRemasteredV2 = "L";
         }
-               else if (four == "4") {
-            fourV2 = "R";
+               else if (fourRemastered == 4) {
+            fourRemasteredV2 = "R";
         }
-               else if (four == "5") {
-            fourV2 = "O";
+               else if (fourRemastered == 5) {
+            fourRemasteredV2 = "O";
         }
-               else if (four == "6") {
-            fourV2 = "F";
+               else if (fourRemastered == 6) {
+            fourRemasteredV2 = "F";
         }
-               else if (four == "7") {
-            fourV2 = "A";
+               else if (fourRemastered == 7) {
+            fourRemasteredV2 = "A";
         }
-               else if (four == "8") {
-            fourV2 = "I";
+               else if (fourRemastered == 8) {
+            fourRemasteredV2 = "I";
         }
                else {
-            fourV2 = "B";
+            fourRemasteredV2 = "B";
         }
-                     if (five == "0") {
-                 fiveV2 = "Y";
+       if (fiveRemastered == 0) {
+                 fiveRemasteredV2 = "Y";
             }
-            else if (five == "1") {
-                 fiveV2 = "M";
+            else if (fiveRemastered == 1) {
+                 fiveRemasteredV2 = "M";
        }
-       else if (five == "2") {
-            fiveV2 = "P";
+       else if (fiveRemastered == 2) {
+            fiveRemasteredV2 = "P";
         }
-               else if (five == "3") {
-            fiveV2 = "L";
+               else if (fiveRemastered == 3) {
+            fiveRemasteredV2 = "L";
         }
-               else if (five == "4") {
-            fiveV2 = "R";
+               else if (fiveRemastered == 4) {
+            fiveRemasteredV2 = "R";
         }
-               else if (five == "5") {
-            fiveV2 = "O";
+               else if (fiveRemastered == 5) {
+            fiveRemasteredV2 = "O";
         }
-               else if (five == "6") {
-            fiveV2 = "F";
+               else if (fiveRemastered == 6) {
+            fiveRemasteredV2 = "F";
         }
-               else if (five == "7") {
-            fiveV2 = "A";
+               else if (fiveRemastered == 7) {
+            fiveRemasteredV2 = "A";
         }
-               else if (five == "8") {
-            fiveV2 = "I";
+               else if (fiveRemastered == 8) {
+            fiveRemasteredV2 = "I";
         }
                else {
-            fiveV2 = "B";
+            fiveRemasteredV2 = "B";
         }
-                     if (six == "0") {
-                 sixV2 = "Y";
+                     if (sixRemastered == 0) {
+                 sixRemasteredV2 = "Y";
             }
-            else if (six == "1") {
-                 sixV2 = "M";
+            else if (sixRemastered == 1) {
+                 sixRemasteredV2 = "M";
        }
-       else if (six == "2") {
-            sixV2 = "P";
+       else if (sixRemastered == 2) {
+            sixRemasteredV2 = "P";
         }
-               else if (six == "3") {
-            sixV2 = "L";
+               else if (sixRemastered == 3) {
+            sixRemasteredV2 = "L";
         }
-               else if (six == "4") {
-            sixV2 = "R";
+               else if (sixRemastered == 4) {
+            sixRemasteredV2 = "R";
         }
-               else if (six == "5") {
-            sixV2 = "O";
+               else if (sixRemastered == 5) {
+            sixRemasteredV2 = "O";
         }
-               else if (six == "6") {
-            sixV2 = "F";
+               else if (sixRemastered == 6) {
+            sixRemasteredV2 = "F";
         }
-               else if (six == "7") {
-            sixV2 = "A";
+               else if (sixRemastered == 7) {
+            sixRemasteredV2 = "A";
         }
-               else if (six == "8") {
-            sixV2 = "I";
+               else if (sixRemastered == 8) {
+            sixRemasteredV2 = "I";
         }
                else {
-            threeV2 = "B";
+            sixRemasteredV2 = "B";
         }
-                     if (seven == "0") {
-                 threeV2 = "Y";
+       if (sevenRemastered == 0) {
+                 sevenRemasteredV2 = "Y";
             }
-            else if (seven == "1") {
-                 threeV2 = "M";
+            else if (sevenRemastered == 1) {
+                 sevenRemasteredV2 = "M";
        }
-       else if (seven == "2") {
-            sevenV2 = "P";
+       else if (sevenRemastered == 2) {
+            sevenRemasteredV2 = "P";
         }
-               else if (seven == "3") {
-            sevenV2 = "L";
+               else if (sevenRemastered == 3) {
+            sevenRemasteredV2 = "L";
         }
-               else if (seven == "4") {
-            sevenV2 = "R";
+               else if (sevenRemastered == 4) {
+            sevenRemasteredV2 = "R";
         }
-               else if (seven == "5") {
-            sevenV2 = "O";
+               else if (sevenRemastered == 5) {
+            sevenRemasteredV2 = "O";
         }
-               else if (seven == "6") {
-            sevenV2 = "F";
+               else if (sevenRemastered == 6) {
+            sevenRemasteredV2 = "F";
         }
-               else if (seven == "7") {
-            sevenV2 = "A";
+               else if (sevenRemastered == 7) {
+            sevenRemasteredV2 = "A";
         }
-               else if (seven == "8") {
-            sevenV2 = "I";
+               else if (sevenRemastered == 8) {
+            sevenRemasteredV2 = "I";
         }
                else {
-            sevenV2 = "B";
+            sevenRemasteredV2 = "B";
         }
-                if (eight == "0") {
-                 eightV2 = "Y";
+       if (eightRemastered == 0) {
+                 eightRemasteredV2 = "Y";
             }
-            else if (eight == "1") {
-                 eightV2 = "M";
+            else if (eightRemastered == 1) {
+                 eightRemasteredV2 = "M";
        }
-       else if (eight == "2") {
-            eightV2 = "P";
+       else if (eightRemastered == 2) {
+            eightRemasteredV2 = "P";
         }
-               else if (eight == "3") {
-            eightV2 = "L";
+               else if (eightRemastered == 3) {
+            eightRemasteredV2 = "L";
         }
-               else if (eight == "4") {
-            eightV2 = "R";
+               else if (eightRemastered == 4) {
+            eightRemasteredV2 = "R";
         }
-               else if (eight == "5") {
-            eightV2 = "O";
+               else if (eightRemastered == 5) {
+            eightRemasteredV2 = "O";
         }
-               else if (eight == "6") {
-            eightV2 = "F";
+               else if (eightRemastered == 6) {
+            eightRemasteredV2 = "F";
         }
-               else if (eight == "7") {
-            eightV2 = "A";
+               else if (eightRemastered == 7) {
+            eightRemasteredV2 = "A";
         }
-               else if (eight == "8") {
-            eightV2 = "I";
+               else if (eightRemastered == 8) {
+            eightRemasteredV2 = "I";
         }
                else {
-            eightV2 = "B";
+            eightRemasteredV2 = "B";
         }
-    String numToLetter = oneV2 + twoV2 + threeV2 + fourV2 + fiveV2 + sixV2 + sevenV2 + eightV2;
+        if (nineRemastered == 0) {
+                 nineRemasteredV2 = "Y";
+            }
+            else if (nineRemastered == 1) {
+                 nineRemasteredV2 = "M";
+       }
+               else if (nineRemastered == 2) {
+            nineRemasteredV2 = "P";
+        }
+               else if (nineRemastered == 3) {
+            nineRemasteredV2 = "L";
+        }
+               else if (nineRemastered == 4) {
+            nineRemasteredV2 = "R";
+        }
+               else if (nineRemastered == 5) {
+            nineRemasteredV2 = "O";
+        }
+               else if (nineRemastered == 6) {
+            nineRemasteredV2 = "F";
+        }
+               else if (nineRemastered == 7) {
+            nineRemasteredV2 = "A";
+        }
+               else if (nineRemastered == 8) {
+            nineRemasteredV2 = "I";
+        }
+               else {
+            nineRemasteredV2 = "B";
+        }
+    String numToLetter = oneRemasteredV2 + twoRemasteredV2 + threeRemasteredV2 + fourRemasteredV2 + fiveRemasteredV2 + sixRemasteredV2 + sevenRemasteredV2 + eightRemasteredV2 + nineRemasteredV2;
     return numToLetter;
 }
+    public static String reverseStringLtr (String replaceLtrRemastered) {
+        String reverseStringLtr = replaceLtrRemastered;
+            String one = reverseStringLtr.substring(0,1);
+            String two = reverseStringLtr.substring(1,2);
+            String three = reverseStringLtr.substring(2,3);
+            String four = reverseStringLtr.substring(3,4);
+            String five = reverseStringLtr.substring(4,5);
+            String six = reverseStringLtr.substring(5,6);
+            String seven = reverseStringLtr.substring(6,7);
+            String eight = reverseStringLtr.substring(7,8);
+            String nine= reverseStringLtr.substring(8,9); 
+        String reverseStringLtrSuper = nine + eight + seven + six + five + four + three + two + one;
+        return reverseStringLtrSuper;
+    }
     public static void main (String [] args) {
         int firstDigit = (int)(Math.random() * 6);
         int lastDigit = (int)(Math.random() * (9-7+1) +7);
@@ -317,6 +397,7 @@ public class MathTrickV2 {
         int timeOneMillionRemastered = timeOneMillion(reverseFinalDifferenceRemastered);
         String massiveSubtractionRemastered = massiveSubtraction(timeOneMillionRemastered);
         String replaceLtrRemastered = replaceLtr(massiveSubtractionRemastered);
+        String reverseStringLtrSuperRemastered = reverseStringLtr(replaceLtrRemastered);
         
         System.out.println("The starting number: " + numRemastered);
         System.out.println("The reversed number: " + reverseDigitsRemastered);
@@ -325,5 +406,6 @@ public class MathTrickV2 {
         System.out.println("Number times one million: " + timeOneMillionRemastered);
         System.out.println("Number subtraced and converted to String: " + massiveSubtractionRemastered);
         System.out.println("Replaced string: " + replaceLtrRemastered);
+        System.out.println("Reversed String: " + reverseStringLtrSuperRemastered);
     }
 }
