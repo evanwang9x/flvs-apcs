@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=MathTrickV2
+comment0.text=\r\n\ \r\n\ @Evan\ Wang\r\n\ @2.0\ 12/23/2021\r\n\ \r\n\ This\ Math\ trick\ and\ many\ more\ can\ be\ found\ at\:\ http\://www.pleacher.com/handley/puzzles/mtricks.html\r\n\r\n
+comment1.params=firstDigit\ lastDigit\ middleDigit
+comment1.target=int\ num(int,\ int,\ int)
+comment2.params=numRemastered
+comment2.target=int\ reverseNum(int)
+comment3.params=numRemastered\ reverseNumRemastered
+comment3.target=int\ difference(int,\ int)
+comment4.params=differenceRemastered
+comment4.target=int\ reverseFinalDifference(int)
+comment5.params=reverseFinalDifferenceRemastered
+comment5.target=int\ timeOneMillion(int)
+comment6.params=timeOneMillionRemastered
+comment6.target=java.lang.String\ massiveSubtraction(int)
+comment7.params=massiveSubtractionRemastered
+comment7.target=java.lang.String\ replaceLtr(java.lang.String)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

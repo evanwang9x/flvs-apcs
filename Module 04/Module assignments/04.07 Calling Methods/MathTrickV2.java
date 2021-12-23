@@ -1,18 +1,14 @@
 /**
  * 
  * @Evan Wang
- * @1.0 12/22/2021
+ * @2.0 12/23/2021
  * 
  * This Math trick and many more can be found at: http://www.pleacher.com/handley/puzzles/mtricks.html
  *
  */
 
-public class MathTrick {
-    public static int getRandomNum() 
-    {    
-        int firstDigit = (int)(Math.random() * 6);
-        int lastDigit = (int)(Math.random() * (9-7+1) +7);
-        int middleDigit = (int)(Math.random() *10 );
+public class MathTrickV2 {
+    public static int num (int firstDigit, int lastDigit, int middleDigit){
         String firstDigitV2 = String.valueOf(firstDigit);
         String lastDigitV2 = String.valueOf(lastDigit);
         String middleDigitV2= String.valueOf(middleDigit);
@@ -20,9 +16,9 @@ public class MathTrick {
         int num = Integer.parseInt(numAlpha);
         return num;
     }
-        public static int reverseDigits ()
-        {
-            int digits = getRandomNum();
+    
+    public static int reverseNum (int numRemastered) {
+            int digits = numRemastered;
             String digitsString = String.valueOf(digits);
             String digitsString0 = digitsString.substring(0);
             String digitsString1 = digitsString.substring(1);
@@ -32,13 +28,12 @@ public class MathTrick {
             int reverseDigits = ((((digits%10)*10)+((digits/10)%10))*10) + digits/100;
             System.out.println(digits);
             return reverseDigits;
-        } 
-        public static int difference () {
-            int altNum = getRandomNum();
-            int altReverseDigit = reverseDigits();
+    }
+    
+    public static int difference (int numRemastered, int reverseNumRemastered) {
+            int altNum = numRemastered;
+            int altReverseDigit = reverseNumRemastered;
             int difference = 0;
-            System.out.println("OG NUM" + altNum);
-            System.out.println("ReverseNum" + altReverseDigit);
         if (altReverseDigit > altNum) {
            difference = altReverseDigit - altNum;
            }
@@ -46,48 +41,30 @@ public class MathTrick {
                difference = altNum - altReverseDigit;
            }
       return difference;
-        }
-        public static int reverseFinalDifference () {
-            int altReverseDigit = reverseDigits();
-            int altNum = getRandomNum();
-            int altDifference = difference();
-            System.out.println(altNum);
-            System.out.println(altReverseDigit);
-            System.out.println(altDifference);
-            String differenceV2 = String.valueOf(altDifference);
-            String differenceFirstDigit = "";
-            String differenceSecondDigit = "";
-            String differenceFinalDigit = "";
-            String reverseDifference = "";
-            if (altDifference >= 100) {
-                differenceFirstDigit = differenceV2.substring(0);
-                differenceSecondDigit = differenceV2.substring(1);
-                differenceFinalDigit = differenceV2.substring(2);
-                reverseDifference = differenceFinalDigit + differenceSecondDigit + differenceFirstDigit;
-            }
-            else {
-                differenceFirstDigit = differenceV2.substring(0);
-                differenceFinalDigit = differenceV2.substring(1);
-                reverseDifference = differenceFinalDigit + differenceFirstDigit;
-            }
-            int reverseFinalDifference = Integer.parseInt(reverseDifference);
-                return reverseFinalDifference;
-                
-        }
-        public static int timeOneMillion (int reverseFinalDifference) {
-        int timeOneMillion = reverseFinalDifference * 1000000;
+    }
+    
+    public static int reverseFinalDifference (int differenceRemastered) {
+        int differenceAlpha = differenceRemastered;
+        int reverseDigits = ((((differenceAlpha%10)*10)+((differenceAlpha/10)%10))*10) + differenceAlpha/100;
+        int reverseFinalDifference = differenceAlpha + reverseDigits;
+
+        return reverseFinalDifference;
+    }
+    
+    public static int timeOneMillion (int reverseFinalDifferenceRemastered) {
+        int timeOneMillion = reverseFinalDifferenceRemastered * 1000000;
         return timeOneMillion;
         }
-        public static int massiveSubtraction (int timeOneMillion) {
-            int massiveSubtraction = timeOneMillion - 733361573; 
-            System.out.println(massiveSubtraction);
+        
+    public static String massiveSubtraction (int timeOneMillionRemastered) {
+            int massiveSubtractionAlpha = timeOneMillionRemastered - 733361573;
+            String massiveSubtraction = Integer.toString(massiveSubtractionAlpha);
             return massiveSubtraction;
         }
-    // Step 7) replace characters in a String according to the chart
-    // Hint: Loop through the String and "replace" the numbers with the corresponding letter
-    public static String replaceLtr(String str, int massiveSubtraction)
+        
+         public static String replaceLtr(String massiveSubtractionRemastered)
     {
-            String massiveSubtractionV2 = String.valueOf(massiveSubtraction);
+            String massiveSubtractionV2 = String.valueOf(massiveSubtractionRemastered);
             String one = massiveSubtractionV2.substring(0);
             String two = massiveSubtractionV2.substring(1);
             String three = massiveSubtractionV2.substring(2);
@@ -96,6 +73,16 @@ public class MathTrick {
             String six = massiveSubtractionV2.substring(5);
             String seven = massiveSubtractionV2.substring(6);
             String eight = massiveSubtractionV2.substring(7);
+            
+            int oneRemastered = Integer.parseInt(one);
+            int twoRemastered = Integer.parseInt(two);
+            int threeRemastered = Integer.parseInt(three);
+            int fourRemastered = Integer.parseInt(four);
+            int fiveRemastered = Integer.parseInt(five);
+            int sixRemastered = Integer.parseInt(six);
+            int sevenRemastered = Integer.parseInt(seven);
+            int eightRemastered = Integer.parseInt(eight);
+            
             String oneV2 = "";
             String twoV2 = "";
             String threeV2 = "";
@@ -104,36 +91,37 @@ public class MathTrick {
             String sixV2 = "";
             String sevenV2 = "";
             String eightV2 = "";
-            if (two == "0") {
-                 twoV2 = "Y";
+        if (twoRemastered == 0) {
+                 twoRemasteredV2 = "Y";
             }
-            else if (two == "1") {
-                 twoV2 = "M";
+            else if (twoRemastered == 1) {
+                 twoRemasteredV2 = "M";
        }
-       else if (two == "2") {
-            twoV2 = "P";
+               else if (twoRemastered == 2) {
+            twoRemasteredV2 = "P";
         }
-               else if (two == "3") {
-            twoV2 = "L";
+               else if (twoRemastered == 3) {
+            twoRemasteredV2 = "L";
         }
-               else if (two == "4") {
-            twoV2 = "R";
+               else if (twoRemastered == 4) {
+            twoRemasteredV2 = "R";
         }
-               else if (two == "5") {
-            twoV2 = "O";
+               else if (twoRemastered == 5) {
+            twoRemasteredV2 = "O";
         }
-               else if (two == "6") {
-            twoV2 = "F";
+               else if (twoRemastered == 6) {
+            twoRemasteredV2 = "F";
         }
-               else if (two == "7") {
-            twoV2 = "A";
+               else if (twoRemastered == 7) {
+            twoRemasteredV2 = "A";
         }
-               else if (two == "8") {
-            twoV2 = "I";
+               else if (twoRemastered == 8) {
+            twoRemasteredV2 = "I";
         }
                else {
-            twoV2 = "B";
+            twoRemasteredV2 = "B";
         }
+    
              if (three == "0") {
                  threeV2 = "Y";
             }
@@ -317,37 +305,25 @@ public class MathTrick {
     String numToLetter = oneV2 + twoV2 + threeV2 + fourV2 + fiveV2 + sixV2 + sevenV2 + eightV2;
     return numToLetter;
 }
-    // Step 8) reverse the letters in a String
-    // Hint: start with an empty String variable 
-    //         loop through the original word   
-    //         add one letter at time to the new variable using concatenation and .substring()
-    public static String reverseString(String str, String oneV2, String twoV2, String threeV2, String fourV2, String fiveV2, String sixV2, String sevenV2, String eightV2) {
-        String reverseNumToLetter = eightV2 + sevenV2 + sixV2 + fiveV2+ fourV2+ threeV2+ twoV2+ oneV2;
-        return reverseNumToLetter;
-    }
+    public static void main (String [] args) {
+        int firstDigit = (int)(Math.random() * 6);
+        int lastDigit = (int)(Math.random() * (9-7+1) +7);
+        int middleDigit = (int)(Math.random() *10 );
         
-    public static void main(String[] args, int num, int reverseDigit, 
-    int difference, int reverseFinalDifference, int timeOneMillion, 
-    int massiveSubtraction, String numToLetter,String reverseNumToLetter) 
-    {
-
-//        1.    Generate a random 3-digit number so that the first and third digits differ by more than one.
-        System.out.println("1. \t" + "The Starting Number: " + num);
-//        2.    Now reverse the digits to form a second number.
-        System.out.println("2. \t" + "The Reversed Number: " + reverseDigit);
-//        3.    Subtract the smaller number from the larger one.
-        System.out.println("3. \t" + "The Difference Is: " + difference);
-//        4.    Now reverse the digits in the answer you got in step 3 and add it to that number.
-        System.out.println("4. \t" + "The reversed number added to difference: " + reverseFinalDifference);
-//        5.    Multiply by one million.
-        System.out.println("5. \t" + "The Number * one million: " + timeOneMillion);
-//        6.    Subtract 733,361,573.
-        System.out.println("6. \t" + "Number subtracted by 733,361,573: " + massiveSubtraction);
-//        7.    Convert the number to a string in order to replace the numbers with letters.
-//                 Ex: String str = String.valueOf(myNumber);
-//            Then, replace each of the digits in your answer, with the letter it corresponds to using the table in the instructions.
-        System.out.println("7. \t" + "Replacing the Digits to Letters: " + numToLetter);
-//        8.    Now reverse the letters in the string to read your message backward.
-        System.out.println("8. \t" + "Reversing the String: " + reverseNumToLetter);
-    } // end main
-} // end class
+        int numRemastered = num(firstDigit, lastDigit, middleDigit);
+        int reverseDigitsRemastered = reverseNum(numRemastered);
+        int differenceRemastered = difference(numRemastered, reverseDigitsRemastered);
+        int reverseFinalDifferenceRemastered = reverseFinalDifference(differenceRemastered);
+        int timeOneMillionRemastered = timeOneMillion(reverseFinalDifferenceRemastered);
+        String massiveSubtractionRemastered = massiveSubtraction(timeOneMillionRemastered);
+        String replaceLtrRemastered = replaceLtr(massiveSubtractionRemastered);
+        
+        System.out.println("The starting number: " + numRemastered);
+        System.out.println("The reversed number: " + reverseDigitsRemastered);
+        System.out.println("The difference is: " + differenceRemastered);
+        System.out.println("The reversed number of difference added to difference " + reverseFinalDifferenceRemastered);
+        System.out.println("Number times one million: " + timeOneMillionRemastered);
+        System.out.println("Number subtraced and converted to String: " + massiveSubtractionRemastered);
+        System.out.println("Replaced string: " + replaceLtrRemastered);
+    }
+}

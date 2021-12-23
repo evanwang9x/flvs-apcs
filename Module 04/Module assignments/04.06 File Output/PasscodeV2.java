@@ -12,12 +12,12 @@ import java.io.File;
 import java.util.Scanner;
 import java.io.FileWriter;
 
-public class Passcode
+public class PasscodeV2
 {
     public static void main(String [] args) throws IOException
     {
         String userChoice = "Y";
-      PrintWriter outFile = new PrintWriter(new File("newFile.txt"));
+      PrintWriter outFile = new PrintWriter(new File("filename.txt"));
         int pwLength = 0;
         int randNum = 0; 
             int doge = 0;
@@ -58,8 +58,9 @@ String answer;
         doge = lowerCaseCharacters;
     }
     password += (char)(doge);
-          outFile.println(password);
     }
+    outFile.println("Here is your Password: " + password);
+
     System.out.println("Do you wish to continue on? Yes or No");  
     answer = in.next();
 } while (answer.equals("Yes"));
