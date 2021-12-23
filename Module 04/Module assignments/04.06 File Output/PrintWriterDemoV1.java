@@ -19,7 +19,7 @@ class PrintWriterDemoV1
        {
            outFile.println(loop + " Hello, World!");
        }//end for loop
-System.out.println(outFile);
+System.out.println("PrintWriterDemoV1 Result " + outFile);
        outFile.close( );    //close the file when finished
     }//end of main method
 }//end of class

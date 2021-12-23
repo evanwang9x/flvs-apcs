@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MathTrick
+comment0.text=\r\n\ \r\n\ @Evan\ Wang\r\n\ @1.0\ 12/22/2021\r\n\ \r\n\ This\ Math\ trick\ and\ many\ more\ can\ be\ found\ at\:\ http\://www.pleacher.com/handley/puzzles/mtricks.html\r\n\r\n
+comment1.params=
+comment1.target=int\ getRandomNum()
+comment2.params=firstDigit\ lastDigit\ middleDigit
+comment2.target=int\ reverseDigits(int,\ int,\ int)
+comment3.params=num\ reverseDigit
+comment3.target=int\ difference(int,\ int)
+comment4.params=difference
+comment4.target=int\ reverseFinalDifference(int)
+comment5.params=reverseFinalDifference
+comment5.target=int\ timeOneMillion(int)
+comment6.params=timeOneMillion
+comment6.target=int\ massiveSubtraction(int)
+comment7.params=str\ massiveSubtraction
+comment7.target=java.lang.String\ replaceLtr(java.lang.String,\ int)
+comment8.params=str\ oneV2\ twoV2\ threeV2\ fourV2\ fiveV2\ sixV2\ sevenV2\ eightV2
+comment8.target=java.lang.String\ reverseString(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment9.params=args\ num\ reverseDigit\ difference\ reverseFinalDifference\ timeOneMillion\ massiveSubtraction\ numToLetter\ reverseNumToLetter
+comment9.target=void\ main(java.lang.String[],\ int,\ int,\ int,\ int,\ int,\ int,\ java.lang.String,\ java.lang.String)
+numComments=10

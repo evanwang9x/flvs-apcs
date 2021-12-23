@@ -17,13 +17,12 @@ class MysteryPrintWriter
       //construct an object called outFile to allow access to output methods of the PrintWriter class
       PrintWriter outFile = new PrintWriter(new File("bah.txt"));
 
-      for (int loop = 1; loop <= 15; loop++)
+      for (int loop = 1; loop <= 10; loop++)
       {
-          outFile.println(loop + "Poopy poop poop " + (char)(83) + (char)(104) + (char)(101) + (char)(101) + (char)(112));
+          outFile.println(loop + " " + (char)(83) + (char)(104) + (char)(101) + (char)(101) + (char)(112));
       }//end of for loop
-System.out.println(outFile);
-      outFile.close ( );    //close the file when finished
 
+      outFile.close ( );    //close the file when finished
+System.out.println("Mystery Print Writer Result" + outFile);
    }//end of main method
 }//end of class
-
