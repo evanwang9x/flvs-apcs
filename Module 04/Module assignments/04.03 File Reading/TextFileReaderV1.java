@@ -31,9 +31,9 @@ public class TextFileReaderV1
 }//end of class
 
 
-// V3: Use the following block of code to test reading integers from data3.txt
+//V3: Use the following block of code to test reading integers from data3.txt
 /*
-      //String token = "";
+      String token = "";
       int intToken = 0;
       File fileName = new File("data3.txt");
       Scanner inFile = new Scanner(fileName);

@@ -7,8 +7,12 @@
  *
  */
 
-public class MathTrickV2 {
-    public static int num (int firstDigit, int lastDigit, int middleDigit){
+public class MathTrickV3 {
+
+    public static int num (){
+        int firstDigit = (int)(Math.random() * 6);
+        int lastDigit = (int)(Math.random() * (9-7+1) +7);
+        int middleDigit = (int)(Math.random() *10 );
         String firstDigitV2 = String.valueOf(firstDigit);
         String lastDigitV2 = String.valueOf(lastDigit);
         String middleDigitV2= String.valueOf(middleDigit);
@@ -56,15 +60,14 @@ public class MathTrickV2 {
         return timeOneMillion;
         }
         
-    public static String massiveSubtraction (int timeOneMillionRemastered) {
-            int massiveSubtractionAlpha = timeOneMillionRemastered - 733361573;
-            String massiveSubtraction = Integer.toString(massiveSubtractionAlpha);
+    public static int massiveSubtraction (int timeOneMillionRemastered) {
+            int massiveSubtraction = timeOneMillionRemastered - 733361573;
             return massiveSubtraction;
         }
         
-         public static String replaceLtr(String massiveSubtractionRemastered)
+         public static String replaceLtr(int massiveSubtractionRemastered)
     {
-            String massiveSubtractionV2 = massiveSubtractionRemastered;
+            String massiveSubtractionV2 = String.valueOf(massiveSubtractionRemastered);
             
             String one = massiveSubtractionV2.substring(0,1);
             String two = massiveSubtractionV2.substring(1,2);
@@ -386,16 +389,14 @@ public class MathTrickV2 {
         return reverseStringLtrSuper;
     }
     public static void main (String [] args) {
-        int firstDigit = (int)(Math.random() * 6);
-        int lastDigit = (int)(Math.random() * (9-7+1) +7);
-        int middleDigit = (int)(Math.random() *10 );
+
         
-        int numRemastered = num(firstDigit, lastDigit, middleDigit);
+        int numRemastered = num();
         int reverseDigitsRemastered = reverseNum(numRemastered);
         int differenceRemastered = difference(numRemastered, reverseDigitsRemastered);
         int reverseFinalDifferenceRemastered = reverseFinalDifference(differenceRemastered);
         int timeOneMillionRemastered = timeOneMillion(reverseFinalDifferenceRemastered);
-        String massiveSubtractionRemastered = massiveSubtraction(timeOneMillionRemastered);
+        int massiveSubtractionRemastered = massiveSubtraction(timeOneMillionRemastered);
         String replaceLtrRemastered = replaceLtr(massiveSubtractionRemastered);
         String reverseStringLtrSuperRemastered = reverseStringLtr(replaceLtrRemastered);
         
