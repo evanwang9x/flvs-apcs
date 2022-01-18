@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Message
+comment1.params=msg\ userIDLength
+comment1.target=Message(java.lang.String,\ int)
+comment2.params=
+comment2.target=boolean\ isValid()
+comment3.params=isValid
+comment3.target=int\ wordCount(java.lang.Boolean)
+numComments=4

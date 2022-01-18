@@ -1,0 +1,31 @@
+
+/**
+ * To help you calculate your average grade
+ *
+ * Evan Wang
+ * 1.0, 12/28/21
+ */
+import java.util.Scanner;
+public class StudentTesterV3
+{
+    public static void printGrade(int grade1, int grade2, int average, int difference) {
+        System.out.println("\t\tGrades:\t\t\nGrade 1\tGrade 2\tAverage\t Difference\n===============================================\n" + grade1 + "\t" + grade2 + "\t" +average + "\t" + difference);
+    }
+    public static void main (String[] args) {
+            Scanner in;
+        in = new Scanner(System.in);
+        System.out.println("Please Enter your 1st Grade: ");
+        int grade1 = in.nextInt();
+        System.out.println("Please Enter your 2nd Grade: ");
+        int grade2 = in.nextInt();
+        
+        int average = 0;
+        int difference = 0;
+        StudentV3 gradeTesting = new StudentV3();
+        average = gradeTesting.calcAverage(grade1, grade2);
+        difference = gradeTesting.calcDifference(grade1, grade2);
+        printGrade(grade1, grade2, average, difference);
+        
+        
+    }
+}

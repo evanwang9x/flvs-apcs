@@ -1,0 +1,44 @@
+
+/**
+ * To give the program a set of instructions regarding what grade you recieved
+ *
+ * Evan Wang
+ * Version 2.0 1/5/22 
+ */
+
+public class GradeTesterV2
+{
+    public static void main (String[] args) {
+        int joeG1 = 79;
+        int joeG2 = 99;
+        int sallyG1 = 42;
+        int sallyG2 = 12;
+        int billyG1 = 100;
+        int billyG2 = 1;
+        
+        int average = 0;
+        int difference = 0;
+        
+        System.out.println("\t\tGrades:\t\t\nGrade 1\tGrade 2\tAverage\t Difference\n===============================================");
+        GradeV8V2 gradev1 = new GradeV8V2();
+        joeG1 = gradev1.getGrade1();
+        joeG2 = gradev1.getGrade2();
+        average = gradev1.calcAverage(joeG1, joeG2);        
+        difference = gradev1.calcDifference(joeG1, joeG2);
+        System.out.println(joeG1 + "\t" + joeG2 + "\t" + average + "\t" + difference);
+        
+        GradeV8V2 gradev2 = new GradeV8V2();
+        average = gradev2.calcAverage(sallyG1, sallyG2);
+        sallyG1 = gradev2.getGrade1();
+        sallyG2 = gradev2.getGrade2();
+        difference = gradev2.calcDifference(sallyG1, sallyG2);
+        System.out.println(sallyG1 + "\t" + sallyG2 + "\t" + average + "\t" + difference);
+        
+        GradeV8V2 gradev3 = new GradeV8V2();
+        average = gradev3.calcAverage(billyG1, billyG2);
+        billyG1 = gradev3.getGrade1();
+        billyG2 = gradev3.getGrade2();
+        difference = gradev3.calcDifference(billyG1, billyG2);
+        System.out.println(billyG1 + "\t" + billyG2 + "\t" + average + "\t" + difference);
+    }
+}

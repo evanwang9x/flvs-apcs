@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=PlanetGravity
 comment0.text=\r\nAuthor\:\ Evan\ Wang\r\nPurpose\:\ To\ help\ you\ calculate\ the\ stuff\ regarding\ Venus\r\nVersion\:\ 1.0\ 12/23/21\r\n
-comment1.params=mercuryUniversalGravity\ mercuryMass\ mercuryRadius
+comment1.params=uG\ mM\ mR
 comment1.target=double\ surfaceCalc(double,\ double,\ double)
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3
+comment2.params=
+comment2.target=java.lang.String\ title()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

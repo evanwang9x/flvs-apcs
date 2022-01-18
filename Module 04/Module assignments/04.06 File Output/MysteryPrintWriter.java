@@ -14,15 +14,19 @@ class MysteryPrintWriter
 {
    public static void main (String [ ] args) throws IOException
    {
-      //construct an object called outFile to allow access to output methods of the PrintWriter class
-      PrintWriter outFile = new PrintWriter(new File("bah.txt"));
-
-      for (int loop = 1; loop <= 10; loop++)
+          String head = "construction";
+    String tail = "";
+    if ( head.length() > 5 && "building".compareTo( head ) < 0 )
+    {
+      tail = head.substring( 5 );
+      head = head.substring( 0, 5 );
+       
+      if ( tail.length() > 5 && "traction".compareTo( tail ) < 0 )
       {
-          outFile.println(loop + " " + (char)(83) + (char)(104) + (char)(101) + (char)(101) + (char)(112));
-      }//end of for loop
-
-      outFile.close ( );    //close the file when finished
-System.out.println("Mystery Print Writer Result" + outFile);
+        head += tail.substring( 0, 5 );
+        tail = tail.substring( 5 );
+      }
+    }
+    System.out.println( tail );
    }//end of main method
 }//end of class

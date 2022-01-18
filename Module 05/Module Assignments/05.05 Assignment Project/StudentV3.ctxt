@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StudentV3
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ StudentV3\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=StudentV3()
+comment2.params=grade1\ grade2
+comment2.target=int\ calcAverage(int,\ int)
+comment3.params=grade1\ grade2
+comment3.target=int\ calcDifference(int,\ int)
+numComments=4
