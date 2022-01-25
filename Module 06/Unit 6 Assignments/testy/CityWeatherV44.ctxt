@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=CityWeatherV44
+comment0.text=\r\n\ Annual\ Weather\ object\ class\r\n\ \r\n\ @author\ APCS\ Team\r\n\ @version\ Today\r\n
+comment1.params=
+comment1.target=CityWeatherV44()
+comment2.params=month\ temperature\ precipitation
+comment2.target=CityWeatherV44(java.lang.String[],\ double[],\ double[])
+comment3.params=month
+comment3.target=void\ setMonth(java.lang.String[])
+comment4.params=temperature
+comment4.target=void\ setTemperature(double[])
+comment5.params=precipitation
+comment5.target=void\ setPrecipitation(double[])
+comment6.params=
+comment6.target=java.lang.String[]\ getMonth()
+comment7.params=
+comment7.target=double[]\ getTemperature()
+comment8.params=
+comment8.target=double[]\ getPrecipitation()
+numComments=9

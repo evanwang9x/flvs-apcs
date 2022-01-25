@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=AnnualClimate
+comment0.text=\r\n\ Project\ title\:\ 06.02\ Formatting\ Output\r\n\ \r\n\ Purpose\ of\ Project\:\ Calculate\ the\ percentage\ of\ a\ repeated\ string.\ (Boy,\ Girl,\ Both).\r\n\ \r\n\ @version\ 12/15/2014\r\n\ \r\n\ @author\ Omar\ Rahman\r\n\ \r\n\ ***********\ PMR\ ***********\r\n\ (+)\ Understood\ how\ arrays\ work.\r\n\ \r\n\ (-)\ Need\ to\ understand\ for\ loops\ and\ printf\ more.\r\n\ ***************************\r\n\ \r\n\ In\ the\ future\:\ Practice/Review\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

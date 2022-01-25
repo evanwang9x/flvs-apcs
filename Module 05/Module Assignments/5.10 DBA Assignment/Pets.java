@@ -13,11 +13,6 @@ public class Pets
     public Pets(){
         
     }
-    public Pets(String name){
-        petName = "";
-        petBreed = "";
-        petAge = 0;
-    }
     public Pets(String name, String breed, int age) {
         petName = name;
         petBreed = breed;
@@ -28,7 +23,7 @@ public class Pets
         return petName;
     }
     public String getPetBreed() {
-                return petBreed;
+        return petBreed;
     }
     public int getPetAge() {
         return petAge;
