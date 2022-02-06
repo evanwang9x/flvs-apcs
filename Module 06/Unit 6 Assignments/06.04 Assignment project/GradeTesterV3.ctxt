@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GradeTesterV3
+comment0.text=\r\n\ To\ give\ the\ program\ a\ set\ of\ instructions\ regarding\ what\ grade\ you\ recieved\r\n\r\n\ Evan\ Wang\r\n\ Version\ 2.0\ 1/5/22\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

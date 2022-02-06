@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=GradeV8V3
+comment0.text=\r\n\ The\ layout\ with\ the\ formulas\ necessary\ for\ you\ to\ calculate\ your\ average\ school\ grade\r\n\r\n\ Evan\ Wang\r\n\ \ 2.0\ 1/5/22\r\n
+comment1.params=grade
+comment1.target=GradeV8V3(int)
+comment2.params=grade1\ grade2
+comment2.target=GradeV8V3(int,\ int)
+comment3.params=
+comment3.target=int\ getGrade1()
+comment4.params=
+comment4.target=int\ getGrade2()
+comment5.params=grade1
+comment5.target=void\ setGrade1(int)
+comment6.params=grade2
+comment6.target=void\ setGrade2(int)
+comment7.params=
+comment7.target=int\ calcAverage()
+comment8.params=
+comment8.target=int\ calcDifference()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
