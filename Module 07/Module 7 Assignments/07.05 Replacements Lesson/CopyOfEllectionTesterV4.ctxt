@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CopyOfEllectionTesterV4
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=names
+comment2.target=void\ printNames(java.util.List)
+comment3.params=names
+comment3.target=void\ printTotalVotes(java.util.List)
+comment4.params=names
+comment4.target=void\ printFancyVotes(java.util.List)
+comment5.params=names\ find\ replace
+comment5.target=void\ changeCandidates(java.util.List,\ java.lang.String,\ java.lang.String)
+comment6.params=names\ find\ replace
+comment6.target=void\ voteChange(java.util.List,\ int,\ int)
+comment7.params=names\ find\ replace\ findV1\ replaceV2
+comment7.target=void\ VoteandNameChange(java.util.List,\ int,\ int,\ java.lang.String,\ java.lang.String)
+numComments=8

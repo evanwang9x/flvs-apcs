@@ -1,0 +1,106 @@
+
+/**
+ * To help you do physics
+ *
+ * Evan Wang
+ *1.0 3/16/22 
+ */
+import java.util.*;
+import java.util.stream.*;
+public class Catapault
+{
+    public static void main (String [] args) {
+        int[] speedArray = new int[] {20, 25, 30 ,35, 40, 45, 50};
+        int[] degreeArray = new int[] {25, 30, 35, 40, 45, 50};
+        int[][] calculationArray = new int[degreeArray.length][speedArray.length];
+        
+        
+        System.out.println(calculationArray.length);
+        System.out.println("\t\tProjectile Distance (feet)");
+        System.out.println("Mph\t25 deg\t 30 deg\t 35 deg\t 40 deg\t 45 deg\t 50 deg");
+        
+        printResults(calculationArray, speedArray, degreeArray);
+        
+    }
+    public static void printResults(int[][] calculationArray, int[] speedArray, int[] degreeArray ) {
+        int test = calculationArray.length;
+        
+
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[0], 2));
+        calculationArray[0][row] = (int)(speed * sinAngles / 10);
+        }
+        
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[1], 2));
+        calculationArray[1][row] = (int)(speed * sinAngles / 10);
+        }
+        
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[2], 2));
+        calculationArray[2][row] = (int)(speed * sinAngles / 10);
+        }
+        
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[3], 2));
+        calculationArray[3][row] = (int)(speed * sinAngles / 10);
+        }
+        
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[4], 2));
+        calculationArray[4][row] = (int)(speed * sinAngles / 10);
+        }
+        
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[5], 2));
+        calculationArray[5][row] = (int)(speed * sinAngles / 10);
+        }
+        
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[5], 2));
+        calculationArray[5][row] = (int)(speed * sinAngles / 10);
+        }
+        
+        for(int row = 0; row < calculationArray.length;row++) {
+            System.out.printf("%3d   ", speedArray[row]);
+            for(int col =0; col< calculationArray.length; col++) {
+                System.out.printf("%8d", calculationArray[row][col]);
+            }
+            System.out.println();
+        }
+        
+        
+        /*      
+        Unsure why whenever I print this out it keeps giving me an outofbounds error message
+        
+        for(int row = 0; row < calculationArray.length; row++) {
+        double testy = (degreeArray[row]);
+        double sinAngles = (Math.sin(2 * Math.toRadians(testy)));  
+        double speed = (Math.pow(speedArray[5], 2));
+        calculationArray[6][row] = (int)(speed * sinAngles / 10);
+        }
+        System.out.printf("%3d  ", speedArray[6]);
+        for(int col=0; col < calculationArray.length; col++) {
+            int row = 0;
+            System.out.printf("%8d", calculationArray[col][col]);
+            row++;
+        }
+        */
+        
+
+    }
+}

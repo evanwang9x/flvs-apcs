@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=MusicV3Tester
+comment0.text=\r\n\ To\ help\ you\ find\ the\ music\ in\ a\ list\r\n\r\n\ Evan\ Wang\r\n\ 1.0\ 3/12/2022\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=musicList
+comment2.target=void\ printMusic(MusicV3[])
+comment3.params=musicList\ toFind
+comment3.target=int\ searchSong(MusicV3[],\ java.lang.String)
+comment4.params=musicList\ toFind
+comment4.target=void\ binarySearchArtist(MusicV3[],\ java.lang.String)
+comment5.params=r\ low\ toFind
+comment5.target=void\ linearPrintArtist(MusicV3[],\ int,\ java.lang.String)
+comment6.params=musicList
+comment6.target=void\ selectArtist(MusicV3[])
+comment7.params=musicList\ low\ toFind
+comment7.target=void\ linearPrintYear(MusicV3[],\ int,\ int)
+comment8.params=musicList\ toFind
+comment8.target=void\ binarySearchYear(MusicV3[],\ int)
+numComments=9

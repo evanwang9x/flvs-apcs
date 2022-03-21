@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CopyOfCopyOfCopyOfElectionTesterV7
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CopyOfCopyOfCopyOfElectionTesterV7\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=names
+comment2.target=void\ printVotes(Candidat[])
+comment3.params=names
+comment3.target=void\ countTotalVotes(Candidat[])
+comment4.params=names
+comment4.target=void\ fancyVotes(Candidat[])
+comment5.params=names\ find\ replace
+comment5.target=void\ changeCandidat(Candidat[],\ java.lang.String,\ java.lang.String)
+comment6.params=names\ find\ replace
+comment6.target=void\ voteChange(Candidat[],\ int,\ int)
+comment7.params=names\ find\ replace\ findV1\ replaceV2
+comment7.target=void\ VoteandNameChange(Candidat[],\ int,\ int,\ java.lang.String,\ java.lang.String)
+comment8.params=names\ location\ addN\ addS
+comment8.target=void\ InsertItem(Candidat[],\ int,\ java.lang.String,\ int)
+comment9.params=names\ find\ addN\ addS
+comment9.target=void\ InsertItemV2(Candidat[],\ java.lang.String,\ java.lang.String,\ int)
+numComments=10

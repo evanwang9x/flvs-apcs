@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Savannah
+comment0.text=\r\nFor\ Savannah\r\n\r\nEvan\ Wang\r\n1.0\ 3/20/22\r\n
+comment1.params=l\ w\ gras
+comment1.target=Savannah(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getSavannah()
+numComments=3

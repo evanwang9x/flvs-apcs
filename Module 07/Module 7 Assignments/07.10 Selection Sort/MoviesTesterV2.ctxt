@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MoviesTesterV2
+comment0.text=\r\nTo\ help\ you\ sort\ movies\ using\ insertion\ sort\r\n\r\nEvan\ Wang\r\n2.0\ 3/10/22\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=unsortedMoviess\ determiner1
+comment2.target=void\ sortByNameFancyEdition(MoviesV2[],\ int)
+comment3.params=unsortedMoviess\ determinater2
+comment3.target=void\ sortByYearFancyEdition(MoviesV2[],\ int)
+comment4.params=unsortedMoviess\ determiner3
+comment4.target=void\ sortByStudioFancyEdition(MoviesV2[],\ int)
+numComments=5

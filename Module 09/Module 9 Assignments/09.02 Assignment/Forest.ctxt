@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Forest
+comment0.text=\r\nFor\ Forrests\r\n\r\nEvan\ Wang\r\n1.0\ 3/20/22\r\n
+comment1.params=l\ w\ tree
+comment1.target=Forest(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getForest()
+numComments=3

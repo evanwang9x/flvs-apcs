@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ElectionTesterV1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ElectionTesterV1\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=names
+comment2.target=void\ printVotes(Candidate[])
+comment3.params=names
+comment3.target=void\ countTotalVotes(Candidate[])
+comment4.params=names
+comment4.target=void\ fancyVotes(Candidate[])
+numComments=5

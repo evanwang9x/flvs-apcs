@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=WinterForest
+comment0.text=\r\nSnowy\ Forest\ Version\r\n\r\nEvan\ Wang\r\n1.0\ 3/20/22\r\n
+comment1.params=l\ w\ forest\ snowForrest
+comment1.target=WinterForest(int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=int\ winterForest()
+numComments=3

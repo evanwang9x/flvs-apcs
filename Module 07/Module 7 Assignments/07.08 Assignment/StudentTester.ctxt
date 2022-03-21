@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=StudentTester
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=names
+comment2.target=void\ printNewList(java.util.List)
+comment3.params=names\ find\ replace
+comment3.target=void\ replaceStudentName(java.util.List,\ java.lang.String,\ java.lang.String)
+comment4.params=names\ name\ find\ replace
+comment4.target=void\ replaceStudentSingularGrade(java.util.List,\ java.lang.String,\ int,\ int)
+comment5.params=names\ findName\ replaceName\ replaceGrade1\ replaceGrade2\ replaceGrade3\ replaceGrade4\ replaceGrade5
+comment5.target=void\ replaceStudent(java.util.List,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment6.params=names\ find\ addName\ grade1\ grade2\ grade3\ grade4\ grade5
+comment6.target=void\ addStudent(java.util.List,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment7.params=names\ find
+comment7.target=void\ deleteStudent(java.util.List,\ java.lang.String)
+numComments=8

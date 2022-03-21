@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MusicTester
+comment0.text=\r\n\ To\ help\ you\ find\ the\ music\ in\ a\ list\r\n\r\n\ Evan\ Wang\r\n\ 1.0\ 3/12/2022\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=musicList
+comment2.target=void\ printMusic(Music[])
+comment3.params=musicList\ findKeySong
+comment3.target=void\ findSong(Music[],\ java.lang.String)
+comment4.params=musicList\ findYear
+comment4.target=void\ findYear(Music[],\ int)
+comment5.params=musicList\ findAuthor
+comment5.target=void\ findAuthor(Music[],\ java.lang.String)
+numComments=6

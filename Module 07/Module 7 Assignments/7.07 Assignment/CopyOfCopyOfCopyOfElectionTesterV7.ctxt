@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=CopyOfCopyOfCopyOfElectionTesterV7
+comment0.text=\r\nTo\ help\ you\ insert/delete/change\ certain\ elements\ of\ an\ array.\r\n\r\n\ Evan\ Wang\r\n1.0\ 3/5/22\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=names\ location
+comment10.target=void\ deleteByLoc(Candida[],\ int)
+comment11.params=names\ find
+comment11.target=void\ deleteByName(Candida[],\ java.lang.String)
+comment2.params=names
+comment2.target=void\ printVotes(Candida[])
+comment3.params=names
+comment3.target=void\ countTotalVotes(Candida[])
+comment4.params=names
+comment4.target=void\ fancyVotes(Candida[])
+comment5.params=names\ find\ replace
+comment5.target=void\ changeCandida(Candida[],\ java.lang.String,\ java.lang.String)
+comment6.params=names\ find\ replace
+comment6.target=void\ voteChange(Candida[],\ int,\ int)
+comment7.params=names\ find\ replace\ findV1\ replaceV2
+comment7.target=void\ VoteandNameChange(Candida[],\ int,\ int,\ java.lang.String,\ java.lang.String)
+comment8.params=names\ location\ addN\ addS
+comment8.target=void\ InsertItem(Candida[],\ int,\ java.lang.String,\ int)
+comment9.params=names\ find\ addN\ addS
+comment9.target=void\ InsertItemV2(Candida[],\ java.lang.String,\ java.lang.String,\ int)
+numComments=12

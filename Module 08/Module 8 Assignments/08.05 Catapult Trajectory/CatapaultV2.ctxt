@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CatapaultV2
+comment0.text=\r\n\ To\ help\ you\ do\ physics\r\n\r\n\ Evan\ Wang\r\n2.0\ 3/17/22\ \r\n
+comment1.params=speedArray\ degreeArray
+comment1.target=CatapaultV2(int,\ int)
+comment2.params=
+comment2.target=int\ getVelocity()
+comment3.params=
+comment3.target=int\ getDegrees()
+comment4.params=
+comment4.target=int\ getDistance()
+comment5.params=
+comment5.target=int\ calcDistance()
+numComments=6

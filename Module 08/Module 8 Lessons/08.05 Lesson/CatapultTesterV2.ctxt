@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CatapultTesterV2
+comment0.text=\r\n\ Project\ title\:\ 09.04\ Challenge\ Program\r\n\r\n\ Purpose\ of\ Project\:\ Calculates\ the\ trajectory\ of\ a\ projectile\ based\ on\ launch\ angles\ and\ launch\ velocities.\r\n\r\n\ @version\ 2/16/2015\r\n\r\n\ @author\ Omar\ Rahman\r\n\r\n\ ***********\ PMR\ ***********\r\n\ (+)\ Understood\ OOP\ more.\r\n\r\n\ (-)\ Need\ more\ practice\ with\ OOP.\r\n\ ***************************\r\n\r\n\ In\ the\ future\:\ Practice.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
