@@ -1,0 +1,35 @@
+
+/**
+ *To help you calculate the Fibonacci number at a certain point
+ *
+ *Evan Wang
+ *4/17/2022
+ */
+import java.util.Scanner;
+public class Fibonacci {
+public static int fibonacciCalc(int n) {
+    if(n == 0 ) {
+        return 0;
+    }
+    else if (n == 1) {
+        return 1;
+    }
+    else {
+        return fibonacciCalc(n - 1) + fibonacciCalc(n-2);
+    }
+}
+public static void main (String [] args) {
+        Scanner in;
+        Scanner inV2;
+        in = new Scanner(System.in);
+        inV2 = new Scanner(System.in);
+        String looper = "Yes";
+        while (looper.equalsIgnoreCase("Yes")) {
+        System.out.println("Please enter the number for your Fibonacci number please: ");
+        int numInt = in.nextInt();
+        System.out.println(fibonacciCalc (numInt));
+        System.out.println("Would you like to continue, Yes or No?");
+        looper = inV2.nextLine();
+    }
+    }
+}

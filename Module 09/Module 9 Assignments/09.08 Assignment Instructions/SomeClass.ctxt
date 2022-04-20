@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SomeClass
+comment1.params=percent\ mealCost
+comment1.target=double\ calcTip(double,\ double)
+comment2.params=mealCost
+comment2.target=double\ fixedTip(double)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Decryption3
+comment0.text=\r\nTo\ help\ you\ decrypt\ a\ message\r\n\r\nEvan\ Wang\r\n1.0\ 4/4/22\r\n
+comment1.params=text\ userShift
+comment1.target=Decryption3(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getPhrase()
+numComments=3

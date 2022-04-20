@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=fd
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ fd\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=str\ n
+comment1.target=java.lang.String\ recur(java.lang.String,\ int)
+comment2.params=n
+comment2.target=int\ mystery(int)
+comment3.params=str
+comment3.target=void\ recur(java.lang.String)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

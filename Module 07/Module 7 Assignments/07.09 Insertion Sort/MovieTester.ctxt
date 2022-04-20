@@ -9,6 +9,4 @@ comment3.params=unsortedMovies\ dest
 comment3.target=Movie[]\ sortByYear(Movie[],\ Movie[])
 comment4.params=unsortedMovies
 comment4.target=Movie[]\ sortByStudio(Movie[])
-comment5.params=source
-comment5.target=void\ sortedByDescendingYears(Movie[])
-numComments=6
+numComments=5
