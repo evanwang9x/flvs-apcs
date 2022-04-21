@@ -128,7 +128,7 @@ public class MoviesTesterV2
         if(determiner == 1) {
         for ( i = unsortedMoviess.length - 1 ; i >= 0 ; i-- )
         {
-            posMax = 0;
+            posMax = 0;Array[] sortedArrayByProductNumber = new Array[unsortedArray.length];
             for ( k = 0 ; k <= i ; k++ )
             {
                 if ( unsortedMoviess[ k ].getYear() > unsortedMoviess[ posMax ].getYear() )

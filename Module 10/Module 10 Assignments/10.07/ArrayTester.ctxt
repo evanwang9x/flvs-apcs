@@ -1,6 +1,11 @@
 #BlueJ class context
 comment0.target=ArrayTester
-comment0.text=\r\nTo\ help\ you\ test\ your\ arrays.\r\n\r\nEvan\ Wang\r\n4/20/2022\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment2.params=unsortedArray\ decider
+comment2.target=Array[]\ sortByName(Array[],\ int)
+comment3.params=unsortedArray\ dest\ decider
+comment3.target=Array[]\ sortByNumber(Array[],\ Array[],\ int)
+comment4.params=unsortedArray\ determinater2
+comment4.target=void\ sortByPrice(Array[],\ int)
+numComments=5
